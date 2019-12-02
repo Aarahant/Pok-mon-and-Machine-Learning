@@ -23,9 +23,9 @@ isLegendary.fit(X1, Y1)
 
 # Prueba
 predicción = isLegendary.predict(X2)
-print("Exactitud:", accuracy_score(Y2, predicción))
-print("Precisión:", precision_score(Y2, predicción))
-print("Matriz de confusión:")
+print("Accuracy:", accuracy_score(Y2, predicción))
+print("Precision:", precision_score(Y2, predicción))
+print("Confusion Matrix:")
 print(confusion_matrix(Y2, predicción))
 
 predictTest = isLegendary.predict([[131,0,680,45,95,1250000,5.8,126,131,98,99,203.0]]) # Yveltal
